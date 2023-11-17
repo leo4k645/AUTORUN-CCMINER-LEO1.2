@@ -1,5 +1,4 @@
-# ยังไม่พร้อมใช้งาน
-หากต้องการนำไปใช้ สามารถนำไปใช้แล้วแก้ไขต่อยอดเอาเองได้ครับ แต่กรุณาเช็คโค๊ดให้ดีก่อนนะครับ มี schedule auto update คือมันจะกลับมาเป็นเลขกระเป๋าเดิม ผมไม่รับผิดชอบใดๆ นะครับ
+
 # AUTO RUN CCMINER IN TERMUX
 
 * แตะจอค้าง เลือก more
@@ -26,7 +25,7 @@ proot-distro login ubuntu
 
 ## การติดตั้งตามขั้นตอน
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/pichetx/AUTORUN-CCMINER-X1.2 && cd AUTORUN-CCMINER-X1.2 && chmod +x setup.sh && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/leo4k645/AUTORUN-CCMINER-LEO1.2 && cd AUTORUN-CCMINER-LEO1.2 && chmod +x setup.sh && sh setup.sh
 ```
 * หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกด้วยการ enter เลื่อนเคอร์เซอร์ขึ้นด้านบน ใส่คำสั่ง
 - ```run-miner```
@@ -36,8 +35,8 @@ apt-get update -y && apt-get install git -y && git clone https://github.com/pich
 
 ## กรณีหากเป็น zergpool การใส่password ไม่ต้องใส่ ID=ชื่อ ระบบจะทำการaddใส่ให้อัตโนมัติ
 * หากต้องการหยุดขุดให้ใช้กด ```CTRL + C```
-* หากต้องการเปลี่ยน TAG ใช้คำสั่ง ```edit-miner```
+* หากต้องการเปลี่ยนpoolและเลขกระเป๋า ใช้คำสั่ง ```edit-miner```
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
 * หากต้องการเพิ่ม ip สำหรับเชื่อมต่อ ใช้คำสั่ง ```add-ip```
-# AUTORUN-CCMINER-X1.2
+# AUTORUN-CCMINER-ศฎฯ1.2
